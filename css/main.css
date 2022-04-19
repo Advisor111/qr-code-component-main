@@ -1,0 +1,61 @@
+/* start variablse */
+:root{
+    --Light-gray : hsl(212, 45%, 89%);
+    --Grayish-blue : hsl(220, 15%, 55%);
+    --Dark-blue : hsl(218, 44%, 22%);
+}
+/* end variablse */
+/* start global rulse */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    background-color: var(--Light-gray);
+}
+body .section .container {
+    padding: 0 20px;
+    margin: auto;
+}
+/* end global rulse */
+/* start section */
+body .section .card {
+    width: 320px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-shadow: 0 15px 80px -60px black;
+}
+.section .card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.section .card .text {
+    text-align: center;
+}
+.card .text h2 {
+    margin: 20px 10px 15px;
+}
+.card .text p {
+    margin: 0 15px 20px;
+    color: var(--Grayish-blue);
+}
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    margin-bottom: 10px;
+}
+/* end section */
