@@ -45,6 +45,7 @@ body .section .card {
 }
 .card .text h2 {
     margin: 20px 10px 15px;
+    color: var(--Dark-blue);
 }
 .card .text p {
     margin: 0 15px 20px;
